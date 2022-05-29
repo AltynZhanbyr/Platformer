@@ -14,8 +14,8 @@ public class TakeDamageOnTrigger : MonoBehaviour
        }
         if (DieAnyCollision) 
         {
-
-            this.Enemy.TakeDamage(1000);
+            if(other.isTrigger==false)
+                this.Enemy.TakeDamage(1000);
         }
    }
 }

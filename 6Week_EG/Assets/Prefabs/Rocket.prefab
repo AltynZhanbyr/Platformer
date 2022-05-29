@@ -72,6 +72,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy: {fileID: 126528578}
+  DieAnyCollision: 1
 --- !u!1 &4905260842599328174
 GameObject:
   m_ObjectHideFlags: 0
