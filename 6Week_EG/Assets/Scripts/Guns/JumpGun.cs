@@ -27,7 +27,7 @@ public class JumpGun : MonoBehaviour
         }
         else 
         {
-            _currentTime += Time.deltaTime;
+            _currentTime += Time.unscaledDeltaTime;
             JumpAttackTime.SetChargeValue(_currentTime,MaxTime);
             if (_currentTime >= MaxTime) 
             {
