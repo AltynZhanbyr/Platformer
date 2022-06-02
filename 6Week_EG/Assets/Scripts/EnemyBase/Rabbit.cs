@@ -11,13 +11,6 @@ public class Rabbit : MonoBehaviour
 
     void Update()
     {
-        /*_timer+=Time.deltaTime;
-        if(_timer>=AttackTime)
-        {
-            _timer=0;
-            RabbitAnimator.SetTrigger("Attack");
-        }
-        */
         Ray ray=new Ray(transform.position+new Vector3(0,1f,0),-transform.right+new Vector3(0,0,0.5f));
         Debug.DrawLine(ray.origin,ray.direction*75f,Color.red);
         RaycastHit hit;
