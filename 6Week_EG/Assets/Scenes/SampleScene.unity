@@ -1056,6 +1056,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef139b36ece298148ae814b48db45d77, type: 3}
+--- !u!1 &343500569 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1975202997582108330, guid: 23c1e431b7563ff499a505fcf0ef51c0, type: 3}
+  m_PrefabInstance: {fileID: 1975202998268200956}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &343500572 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1975202997582108327, guid: 23c1e431b7563ff499a505fcf0ef51c0, type: 3}
+  m_PrefabInstance: {fileID: 1975202998268200956}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343500569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 000ce9608a680b64f8fe6857525e694e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &343500575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343500569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c665bcd8dabb171499046cbc0ddb0e6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerHealth: {fileID: 343500572}
+  FallTime: 2
 --- !u!1001 &348038443
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1797,7 +1827,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2241326253837148888, guid: 23c1e431b7563ff499a505fcf0ef51c0, type: 3}
   m_PrefabInstance: {fileID: 1975202998268200956}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 343500569}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aabc4da755faba3409106c08a19eef68, type: 3}
@@ -4537,7 +4567,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1648634401}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -17.18, y: 1.16, z: 0.07}
+  m_LocalPosition: {x: -35.76, y: 1.16, z: 0.07}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 963194228}
