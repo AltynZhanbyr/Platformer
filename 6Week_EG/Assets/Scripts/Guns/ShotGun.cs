@@ -31,6 +31,7 @@ public class ShotGun : Gun
         {
             PlayerArmory.TakeGunByIndex(0);
         }
+        ShotSmoke.Play();
     }
     public override void ActivateGun()
     {

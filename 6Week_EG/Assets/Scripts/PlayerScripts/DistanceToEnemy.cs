@@ -47,7 +47,7 @@ public class DistanceToEnemy : MonoBehaviour
         }
     }
 #if UNITY_EDITOR
-    private void OnDrawGizmosSelected()
+    private void OnDrawGizmos()
     {
         Handles.color = Color.gray;
         Handles.DrawWireDisc(transform.position, Vector3.forward, VisibleDist);

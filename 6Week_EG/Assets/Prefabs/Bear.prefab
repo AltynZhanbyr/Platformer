@@ -116,6 +116,7 @@ GameObject:
   - component: {fileID: 1327856220367213002}
   - component: {fileID: 1327856220367213001}
   - component: {fileID: 1327856220367213003}
+  - component: {fileID: 575973768617269413}
   m_Layer: 0
   m_Name: Bear
   m_TagString: Enemy
@@ -200,7 +201,19 @@ MonoBehaviour:
         m_CallState: 2
   EnemyOnDieEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 575973768617269413}
+        m_TargetAssemblyTypeName: OnDieEffects, Assembly-CSharp
+        m_MethodName: DieEffect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1327856220367213001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -246,6 +259,20 @@ MonoBehaviour:
   EulerRight: {x: 0, y: -30, z: 0}
   EulerLeft: {x: 0, y: -150, z: 0}
   RotationSpeed: 5
+--- !u!114 &575973768617269413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1327856220367212598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 779425d16495bb349b413559304087f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DieSmoke: {fileID: 0}
+  AudioSource: {fileID: 0}
 --- !u!1001 &1327856220039818994
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -9,6 +9,8 @@ public abstract class Gun : MonoBehaviour
     public Transform Spawn;
     public float ShootPeriod=0.2f;
 
+    public ParticleSystem ShotSmoke;
+
     public AudioSource ShotSound;
     public GameObject Flash;
 
@@ -33,6 +35,7 @@ public abstract class Gun : MonoBehaviour
         ShotSound.Play();
         Flash.SetActive(true);
         Invoke("TurnOff", 0.12f);
+        ShotSmoke.Play();
     }
     private void TurnOff()
     {
