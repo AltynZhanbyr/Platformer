@@ -197,6 +197,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1251713924}
     m_Modifications:
+    - target: {fileID: 1821106371, guid: 3b3ebd1df9c473140b18aed1e2e27c4c, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 32.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 1821106371, guid: 3b3ebd1df9c473140b18aed1e2e27c4c, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 4.71
+      objectReference: {fileID: 0}
     - target: {fileID: 4507507948565342892, guid: 3b3ebd1df9c473140b18aed1e2e27c4c, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -248,11 +256,11 @@ PrefabInstance:
     - target: {fileID: 5196620400474277100, guid: 3b3ebd1df9c473140b18aed1e2e27c4c, type: 3}
       propertyPath: DieSmoke
       value: 
-      objectReference: {fileID: 1235897367}
+      objectReference: {fileID: 1552691066}
     - target: {fileID: 5196620400474277100, guid: 3b3ebd1df9c473140b18aed1e2e27c4c, type: 3}
       propertyPath: AudioSource
       value: 
-      objectReference: {fileID: 382299528}
+      objectReference: {fileID: 1552691067}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b3ebd1df9c473140b18aed1e2e27c4c, type: 3}
 --- !u!1001 &89858087
@@ -1016,11 +1024,11 @@ PrefabInstance:
     - target: {fileID: 4443683648340886538, guid: ef139b36ece298148ae814b48db45d77, type: 3}
       propertyPath: DieSmoke
       value: 
-      objectReference: {fileID: 1235897367}
+      objectReference: {fileID: 1552691066}
     - target: {fileID: 4443683648340886538, guid: ef139b36ece298148ae814b48db45d77, type: 3}
       propertyPath: AudioSource
       value: 
-      objectReference: {fileID: 382299528}
+      objectReference: {fileID: 1552691067}
     - target: {fileID: 4545574800026258851, guid: ef139b36ece298148ae814b48db45d77, type: 3}
       propertyPath: m_Name
       value: Rabbit
@@ -1177,11 +1185,11 @@ PrefabInstance:
     - target: {fileID: 575973768617269413, guid: 58662245fe5d94c47ab121d2c1cb37d7, type: 3}
       propertyPath: DieSmoke
       value: 
-      objectReference: {fileID: 1235897367}
+      objectReference: {fileID: 1552691066}
     - target: {fileID: 575973768617269413, guid: 58662245fe5d94c47ab121d2c1cb37d7, type: 3}
       propertyPath: AudioSource
       value: 
-      objectReference: {fileID: 382299528}
+      objectReference: {fileID: 1552691067}
     - target: {fileID: 1327856220367212598, guid: 58662245fe5d94c47ab121d2c1cb37d7, type: 3}
       propertyPath: m_Name
       value: Bear (1)
@@ -1232,11 +1240,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58662245fe5d94c47ab121d2c1cb37d7, type: 3}
---- !u!82 &382299528 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 2009203323703003493, guid: 51c8147b93f43074fa4b7b4c1718f9da, type: 3}
-  m_PrefabInstance: {fileID: 2009203323320886509}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &452449596
 GameObject:
   m_ObjectHideFlags: 0
@@ -1516,11 +1519,11 @@ PrefabInstance:
     - target: {fileID: 695768672, guid: ae8bb0c6996b7e2458dbea71c55cb3a5, type: 3}
       propertyPath: DieSmoke
       value: 
-      objectReference: {fileID: 1235897367}
+      objectReference: {fileID: 1552691066}
     - target: {fileID: 695768672, guid: ae8bb0c6996b7e2458dbea71c55cb3a5, type: 3}
       propertyPath: AudioSource
       value: 
-      objectReference: {fileID: 382299528}
+      objectReference: {fileID: 1552691067}
     - target: {fileID: 1984149219702357360, guid: ae8bb0c6996b7e2458dbea71c55cb3a5, type: 3}
       propertyPath: m_Name
       value: Squirrel
@@ -1581,11 +1584,11 @@ PrefabInstance:
     - target: {fileID: 4616277258646580490, guid: a92a55e03106c7c49b7c17c449b66f71, type: 3}
       propertyPath: DieSmoke
       value: 
-      objectReference: {fileID: 1235897367}
+      objectReference: {fileID: 1552691066}
     - target: {fileID: 4616277258646580490, guid: a92a55e03106c7c49b7c17c449b66f71, type: 3}
       propertyPath: AudioSource
       value: 
-      objectReference: {fileID: 382299528}
+      objectReference: {fileID: 1552691067}
     - target: {fileID: 8384804303121301172, guid: a92a55e03106c7c49b7c17c449b66f71, type: 3}
       propertyPath: m_Name
       value: Pig
@@ -2213,11 +2216,11 @@ PrefabInstance:
     - target: {fileID: 4443683648340886538, guid: ef139b36ece298148ae814b48db45d77, type: 3}
       propertyPath: DieSmoke
       value: 
-      objectReference: {fileID: 1235897367}
+      objectReference: {fileID: 1552691066}
     - target: {fileID: 4443683648340886538, guid: ef139b36ece298148ae814b48db45d77, type: 3}
       propertyPath: AudioSource
       value: 
-      objectReference: {fileID: 382299528}
+      objectReference: {fileID: 1552691067}
     - target: {fileID: 4545574800026258851, guid: ef139b36ece298148ae814b48db45d77, type: 3}
       propertyPath: m_Name
       value: Rabbit (1)
@@ -2357,11 +2360,11 @@ PrefabInstance:
     - target: {fileID: 4443683648340886538, guid: ef139b36ece298148ae814b48db45d77, type: 3}
       propertyPath: DieSmoke
       value: 
-      objectReference: {fileID: 1235897367}
+      objectReference: {fileID: 1552691066}
     - target: {fileID: 4443683648340886538, guid: ef139b36ece298148ae814b48db45d77, type: 3}
       propertyPath: AudioSource
       value: 
-      objectReference: {fileID: 382299528}
+      objectReference: {fileID: 1552691067}
     - target: {fileID: 4545574800026258851, guid: ef139b36ece298148ae814b48db45d77, type: 3}
       propertyPath: m_Name
       value: Rabbit
@@ -3009,11 +3012,11 @@ PrefabInstance:
     - target: {fileID: 4616277258646580490, guid: a92a55e03106c7c49b7c17c449b66f71, type: 3}
       propertyPath: DieSmoke
       value: 
-      objectReference: {fileID: 1235897367}
+      objectReference: {fileID: 1552691066}
     - target: {fileID: 4616277258646580490, guid: a92a55e03106c7c49b7c17c449b66f71, type: 3}
       propertyPath: AudioSource
       value: 
-      objectReference: {fileID: 382299528}
+      objectReference: {fileID: 1552691067}
     - target: {fileID: 8384804302392052651, guid: a92a55e03106c7c49b7c17c449b66f71, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.31
@@ -3640,11 +3643,11 @@ PrefabInstance:
     - target: {fileID: 695768672, guid: ae8bb0c6996b7e2458dbea71c55cb3a5, type: 3}
       propertyPath: DieSmoke
       value: 
-      objectReference: {fileID: 1235897367}
+      objectReference: {fileID: 1552691066}
     - target: {fileID: 695768672, guid: ae8bb0c6996b7e2458dbea71c55cb3a5, type: 3}
       propertyPath: AudioSource
       value: 
-      objectReference: {fileID: 382299528}
+      objectReference: {fileID: 1552691067}
     - target: {fileID: 1984149219702357360, guid: ae8bb0c6996b7e2458dbea71c55cb3a5, type: 3}
       propertyPath: m_Name
       value: Squirrel (1)
@@ -4011,11 +4014,11 @@ PrefabInstance:
     - target: {fileID: 575973768617269413, guid: 58662245fe5d94c47ab121d2c1cb37d7, type: 3}
       propertyPath: DieSmoke
       value: 
-      objectReference: {fileID: 1235897367}
+      objectReference: {fileID: 1552691066}
     - target: {fileID: 575973768617269413, guid: 58662245fe5d94c47ab121d2c1cb37d7, type: 3}
       propertyPath: AudioSource
       value: 
-      objectReference: {fileID: 382299528}
+      objectReference: {fileID: 1552691067}
     - target: {fileID: 1327856220367212598, guid: 58662245fe5d94c47ab121d2c1cb37d7, type: 3}
       propertyPath: m_Name
       value: Bear
@@ -4064,6 +4067,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1327856220367213000, guid: 58662245fe5d94c47ab121d2c1cb37d7, type: 3}
+      propertyPath: AttackTime
+      value: 2.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58662245fe5d94c47ab121d2c1cb37d7, type: 3}
 --- !u!1 &1217995131
@@ -4106,11 +4113,6 @@ RectTransform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4507507948565342892, guid: 3b3ebd1df9c473140b18aed1e2e27c4c, type: 3}
   m_PrefabInstance: {fileID: 2016349741}
-  m_PrefabAsset: {fileID: 0}
---- !u!198 &1235897367 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 2009203324556486906, guid: 51c8147b93f43074fa4b7b4c1718f9da, type: 3}
-  m_PrefabInstance: {fileID: 2009203323320886509}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1238412055
 GameObject:
@@ -4589,11 +4591,11 @@ PrefabInstance:
     - target: {fileID: 4616277258646580490, guid: a92a55e03106c7c49b7c17c449b66f71, type: 3}
       propertyPath: DieSmoke
       value: 
-      objectReference: {fileID: 1235897367}
+      objectReference: {fileID: 1552691066}
     - target: {fileID: 4616277258646580490, guid: a92a55e03106c7c49b7c17c449b66f71, type: 3}
       propertyPath: AudioSource
       value: 
-      objectReference: {fileID: 382299528}
+      objectReference: {fileID: 1552691067}
     - target: {fileID: 8384804301832600886, guid: a92a55e03106c7c49b7c17c449b66f71, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.97
@@ -4945,6 +4947,73 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ff812d0cfa5770488da77b60c0c66ae, type: 3}
+--- !u!1001 &1552691065
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2009203324556486901, guid: 51c8147b93f43074fa4b7b4c1718f9da, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2009203324556486901, guid: 51c8147b93f43074fa4b7b4c1718f9da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -21.036352
+      objectReference: {fileID: 0}
+    - target: {fileID: 2009203324556486901, guid: 51c8147b93f43074fa4b7b4c1718f9da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 2009203324556486901, guid: 51c8147b93f43074fa4b7b4c1718f9da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2009203324556486901, guid: 51c8147b93f43074fa4b7b4c1718f9da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2009203324556486901, guid: 51c8147b93f43074fa4b7b4c1718f9da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2009203324556486901, guid: 51c8147b93f43074fa4b7b4c1718f9da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2009203324556486901, guid: 51c8147b93f43074fa4b7b4c1718f9da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2009203324556486901, guid: 51c8147b93f43074fa4b7b4c1718f9da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2009203324556486901, guid: 51c8147b93f43074fa4b7b4c1718f9da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2009203324556486901, guid: 51c8147b93f43074fa4b7b4c1718f9da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2009203324556486904, guid: 51c8147b93f43074fa4b7b4c1718f9da, type: 3}
+      propertyPath: m_Name
+      value: DieSmoke
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 51c8147b93f43074fa4b7b4c1718f9da, type: 3}
+--- !u!198 &1552691066 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 2009203324556486906, guid: 51c8147b93f43074fa4b7b4c1718f9da, type: 3}
+  m_PrefabInstance: {fileID: 1552691065}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1552691067 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2009203323703003493, guid: 51c8147b93f43074fa4b7b4c1718f9da, type: 3}
+  m_PrefabInstance: {fileID: 1552691065}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1557403534 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1984149219702357365, guid: ae8bb0c6996b7e2458dbea71c55cb3a5, type: 3}
@@ -5052,7 +5121,7 @@ MonoBehaviour:
   ShotSound: {fileID: 1997744173}
   Flash: {fileID: 695080905}
   BulletsText: {fileID: 595551114}
-  BulletsCount: 1000
+  BulletsCount: 0
   PlayerArmory: {fileID: 691736926}
 --- !u!1 &1630972989
 GameObject:
@@ -5201,7 +5270,7 @@ MonoBehaviour:
   ShotSound: {fileID: 1997744173}
   Flash: {fileID: 815867188}
   BulletsText: {fileID: 630376855}
-  BulletsCount: 30
+  BulletsCount: 0
   Spawns:
   - {fileID: 1977690777}
   - {fileID: 1946156682}
@@ -5690,11 +5759,11 @@ PrefabInstance:
     - target: {fileID: 5196620400474277100, guid: 3b3ebd1df9c473140b18aed1e2e27c4c, type: 3}
       propertyPath: DieSmoke
       value: 
-      objectReference: {fileID: 1235897367}
+      objectReference: {fileID: 1552691066}
     - target: {fileID: 5196620400474277100, guid: 3b3ebd1df9c473140b18aed1e2e27c4c, type: 3}
       propertyPath: AudioSource
       value: 
-      objectReference: {fileID: 382299528}
+      objectReference: {fileID: 1552691067}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b3ebd1df9c473140b18aed1e2e27c4c, type: 3}
 --- !u!4 &1697856614 stripped
@@ -6149,14 +6218,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1251713924}
     m_Modifications:
-    - target: {fileID: 1821106371, guid: 3b3ebd1df9c473140b18aed1e2e27c4c, type: 3}
-      propertyPath: m_ConnectedAnchor.x
-      value: 51.55809
-      objectReference: {fileID: 0}
-    - target: {fileID: 1821106371, guid: 3b3ebd1df9c473140b18aed1e2e27c4c, type: 3}
-      propertyPath: m_ConnectedAnchor.y
-      value: 8.06
-      objectReference: {fileID: 0}
     - target: {fileID: 4507507948565342892, guid: 3b3ebd1df9c473140b18aed1e2e27c4c, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -6208,11 +6269,11 @@ PrefabInstance:
     - target: {fileID: 5196620400474277100, guid: 3b3ebd1df9c473140b18aed1e2e27c4c, type: 3}
       propertyPath: DieSmoke
       value: 
-      objectReference: {fileID: 1235897367}
+      objectReference: {fileID: 1552691066}
     - target: {fileID: 5196620400474277100, guid: 3b3ebd1df9c473140b18aed1e2e27c4c, type: 3}
       propertyPath: AudioSource
       value: 
-      objectReference: {fileID: 382299528}
+      objectReference: {fileID: 1552691067}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b3ebd1df9c473140b18aed1e2e27c4c, type: 3}
 --- !u!1 &2019300650
@@ -6625,7 +6686,7 @@ PrefabInstance:
       objectReference: {fileID: 937090563}
     - target: {fileID: 2241326253837148888, guid: 23c1e431b7563ff499a505fcf0ef51c0, type: 3}
       propertyPath: CurrentGunID
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2241326253837148888, guid: 23c1e431b7563ff499a505fcf0ef51c0, type: 3}
       propertyPath: Guns.Array.size
@@ -6652,63 +6713,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1975202997342248974, guid: 23c1e431b7563ff499a505fcf0ef51c0, type: 3}
   m_PrefabInstance: {fileID: 1975202998268200956}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &2009203323320886509
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2009203324556486901, guid: 51c8147b93f43074fa4b7b4c1718f9da, type: 3}
-      propertyPath: m_RootOrder
-      value: 18
-      objectReference: {fileID: 0}
-    - target: {fileID: 2009203324556486901, guid: 51c8147b93f43074fa4b7b4c1718f9da, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -21.036352
-      objectReference: {fileID: 0}
-    - target: {fileID: 2009203324556486901, guid: 51c8147b93f43074fa4b7b4c1718f9da, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.84
-      objectReference: {fileID: 0}
-    - target: {fileID: 2009203324556486901, guid: 51c8147b93f43074fa4b7b4c1718f9da, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2009203324556486901, guid: 51c8147b93f43074fa4b7b4c1718f9da, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 2009203324556486901, guid: 51c8147b93f43074fa4b7b4c1718f9da, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 2009203324556486901, guid: 51c8147b93f43074fa4b7b4c1718f9da, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2009203324556486901, guid: 51c8147b93f43074fa4b7b4c1718f9da, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2009203324556486901, guid: 51c8147b93f43074fa4b7b4c1718f9da, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 2009203324556486901, guid: 51c8147b93f43074fa4b7b4c1718f9da, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2009203324556486901, guid: 51c8147b93f43074fa4b7b4c1718f9da, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2009203324556486904, guid: 51c8147b93f43074fa4b7b4c1718f9da, type: 3}
-      propertyPath: m_Name
-      value: DieSmoke
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 51c8147b93f43074fa4b7b4c1718f9da, type: 3}
 --- !u!1001 &3472595845506240963
 PrefabInstance:
   m_ObjectHideFlags: 0

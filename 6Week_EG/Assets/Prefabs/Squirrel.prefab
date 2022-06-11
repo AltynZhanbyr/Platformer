@@ -466,7 +466,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f0a452efb347444d8f4b50240b5a7ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackTime: 5
+  AttackTime: 3
   Animator: {fileID: 1984149218587561076}
   LayerMask:
     serializedVersion: 2
