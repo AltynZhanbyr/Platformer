@@ -32,9 +32,10 @@ public class Pointer : MonoBehaviour
         }
         else
         {
-             _yEuler=Mathf.Lerp(_yEuler,-45f,Time.deltaTime*RotSpeed);
+            _yEuler=Mathf.Lerp(_yEuler,-45f,Time.deltaTime*RotSpeed);
         }
         Body.localEulerAngles=new Vector3(0f,_yEuler,0f);
+        //Body.rotation = Quaternion.Lerp(transform.rotation,Quaternion.Euler(0f, _yEuler, 0f),Time.deltaTime*RotSpeed);
     }
 }
   
