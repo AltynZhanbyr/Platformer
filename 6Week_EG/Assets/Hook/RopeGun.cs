@@ -62,7 +62,7 @@ public class RopeGun : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        if (RopeState == RopeState.Active)
+        if (RopeState == RopeState.Active )
         {
             PlayerMove.StopRotation();
         }

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
+
     public Rigidbody PlayerRigidbody;
     public float MoveSpeed;
     public float JumpForce;
@@ -13,6 +14,12 @@ public class PlayerMove : MonoBehaviour
     public float SpeedMultiply;
     public float MaxSpeed;
     private int _jumpCounter;
+    public Pointer PlayerPointer;
+
+    private void Start()
+    {
+        PlayerRigidbody.maxAngularVelocity=Mathf.Infinity;
+    }
 
     private void FixedUpdate() 
     {
@@ -30,7 +37,6 @@ public class PlayerMove : MonoBehaviour
         if (Grounded)
         {
             PlayerRigidbody.AddForce(-PlayerRigidbody.velocity.x * Friction, 0, 0, ForceMode.VelocityChange);
-            StopRotation();
         }
 
         _jumpCounter += 1;
@@ -38,7 +44,7 @@ public class PlayerMove : MonoBehaviour
         if (_jumpCounter == 2) 
         {
             PlayerRigidbody.freezeRotation = false;
-            PlayerRigidbody.AddTorque(0, 0, 10f, ForceMode.VelocityChange);
+            PlayerRigidbody.AddTorque(0, 0,PlayerPointer.Delta.normalized.x * 10f, ForceMode.VelocityChange);
         }
         
     }
@@ -52,20 +58,20 @@ public class PlayerMove : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space))
         {
             if (Grounded)
-                Jump();
+                    Jump();
         }
-        if(Input.GetKey(KeyCode.LeftControl) ||Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space))
         {
-            ColliderTransform.localScale=Vector3.Lerp(ColliderTransform.localScale,new Vector3(1f,0.65f,1f),Time.deltaTime*15f);
+            ColliderTransform.localScale = Vector3.Lerp(ColliderTransform.localScale, new Vector3(1f, 0.65f, 1f), Time.deltaTime * 15f);
         }
         else
         {
-            ColliderTransform.localScale=Vector3.Lerp(ColliderTransform.localScale,new Vector3(1f,1f,1f),Time.deltaTime*15f);
+            ColliderTransform.localScale = Vector3.Lerp(ColliderTransform.localScale, new Vector3(1f, 1f, 1f), Time.deltaTime * 15f);
         }
     }
     public void StopRotation() 
     {
-        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0f,0f,0f), Time.deltaTime * 30f);
+        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0f, 0f, 0f), Time.deltaTime * 30f);
         PlayerRigidbody.freezeRotation = true;
     }
     private void OnCollisionStay(Collision other) 
@@ -76,6 +82,8 @@ public class PlayerMove : MonoBehaviour
             if(angle<45f)
             {
                 Grounded=true;
+                transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0f, 0f, 0f), Time.deltaTime * 30f);
+                PlayerRigidbody.freezeRotation = true;
             }
         }
     }
